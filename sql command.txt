@@ -1,0 +1,24 @@
+use customer_db;
+select * from customer;
+select * from address;
+select * from customer_address;
+select * from card;
+select * from customer_card;
+select * from customer_customer_cart;
+select * from address;
+
+use restaurant_db;
+select * from food;
+
+use orders_db;
+select * from orders;
+select * from orders_order_items;
+
+use payment_db;
+select * from invoice;
+
+create database admin_db;
+use admin_db;
+select * from admin;
+
+
